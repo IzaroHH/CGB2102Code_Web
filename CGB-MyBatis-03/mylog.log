@@ -176,3 +176,58 @@ DEBUG [main] 2021-04-19 03:31:45 - Created connection 667346055.
 DEBUG [main] 2021-04-19 03:31:45 - ==>  Preparing: select * from emp where true and salary > ? and salary < ? 
 DEBUG [main] 2021-04-19 03:31:45 - ==> Parameters: 3000(Integer), 4500(Integer)
 DEBUG [main] 2021-04-19 03:31:45 - <==      Total: 4
+DEBUG [main] 2021-04-19 04:17:52 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 04:17:52 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 04:17:52 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 04:17:52 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 04:17:52 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 04:17:52 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 04:17:53 - Created connection 1849201180.
+DEBUG [main] 2021-04-19 04:17:53 - ==>  Preparing: update emp set salary=salary +? where id in ( ? , ? , ? , ? ) 
+DEBUG [main] 2021-04-19 04:17:53 - ==> Parameters: 1000(Integer), 2(Integer), 4(Integer), 6(Integer), 8(Integer)
+DEBUG [main] 2021-04-19 04:17:53 - <==    Updates: 4
+DEBUG [main] 2021-04-19 05:29:34 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 05:29:34 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:29:34 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:29:34 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:29:34 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:38:41 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 05:38:41 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:38:41 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:38:41 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:38:41 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:53:23 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 05:53:23 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:53:23 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:53:23 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:53:23 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:58:18 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 05:58:18 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:58:18 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:58:18 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 05:58:18 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:00:00 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 06:00:00 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:00:00 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:00:00 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:00:00 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:04:19 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 06:04:19 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:04:19 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:04:19 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:04:19 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:06:21 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 06:06:21 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:06:21 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:06:21 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:06:21 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:07:48 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 06:07:48 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:07:48 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:07:48 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:07:48 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:14:11 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 06:14:11 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:14:11 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:14:11 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 06:14:11 - PooledDataSource forcefully closed/removed all connections.

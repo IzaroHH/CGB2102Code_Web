@@ -7,7 +7,7 @@
   不同Mapper文件的namespace值应该保证唯一
   在程序中通过[ namespace + id ]定位到要执行哪一条SQL语句
  -->
-<mapper namespace="EmpMapper">
+<mapper namespace="cn.tedu.dao.EmpMapper">
     <!-- 通过select、insert、update、delete标签声明要执行的SQL -->
     <!-- 练习1: 查询emp表中的所有员工信息
       resultType指定查询的结果将会封装到什么类型中
@@ -72,4 +72,26 @@
             </if>
         </where>
     </select>
+
+    <delete id="deleteByIds">
+        delete from emp where id in
+        <foreach collection="array" open="(" item="id" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <delete id="deleteByIds2">
+        delete from emp where id in
+        <foreach collection="list" open="(" item="id" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <update id="updateByIds">
+        update emp set salary=salary +#{money}
+        where id in
+        <foreach collection="arrayIds" open="(" item="id" separator="," close=")">
+            #{id}
+        </foreach>
+    </update>
 </mapper>

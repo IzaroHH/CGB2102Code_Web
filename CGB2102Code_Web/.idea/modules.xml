@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CGB-JDBC/CGB-JDBC.iml" filepath="$PROJECT_DIR$/CGB-JDBC/CGB-JDBC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../CGB-MyBatis-01/CGB-MyBatis-01.iml" filepath="$PROJECT_DIR$/../CGB-MyBatis-01/CGB-MyBatis-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CGB-MyBatis-03/CGB-MyBatis-03.iml" filepath="$PROJECT_DIR$/../CGB-MyBatis-03/CGB-MyBatis-03.iml" />
     </modules>
   </component>
 </project>

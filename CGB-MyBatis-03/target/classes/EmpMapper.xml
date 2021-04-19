@@ -72,4 +72,26 @@
             </if>
         </where>
     </select>
+
+    <delete id="deleteByIds">
+        delete from emp where id in
+        <foreach collection="array" open="(" item="id" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <delete id="deleteByIds2">
+        delete from emp where id in
+        <foreach collection="list" open="(" item="id" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <update id="updateByIds">
+        update emp set salary=salary +#{money}
+        where id in
+        <foreach collection="arrayIds" open="(" item="id" separator="," close=")">
+            #{id}
+        </foreach>
+    </update>
 </mapper>
