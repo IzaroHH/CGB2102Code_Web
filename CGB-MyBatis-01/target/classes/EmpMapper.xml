@@ -50,14 +50,26 @@
 
     <select id="findBySal" resultType="cn.tedu.pojo.Emp">
         select * from emp
-        where 1=1
-        <if test="minSol !=null">
+        where true
+        <if test="minSal !=null">
             and salary &gt; #{minSal}
         </if>
-        <if test="maxSol !=null">
+        <if test="maxSal !=null">
             <!--     &lt;是<的含义
                      &gt;是>的含义      -->
             and salary &lt; #{maxSal}
         </if>
+
+    </select>
+    <select id="findBySal2" resultType="cn.tedu.pojo.Emp">
+        select * from emp
+        <where>
+            <if test="minSal !=null">
+                salary > #{minSal}
+            </if>
+            <if test="maxSal !=null">
+                salary &lt; #{maxSal}
+            </if>
+        </where>
     </select>
 </mapper>

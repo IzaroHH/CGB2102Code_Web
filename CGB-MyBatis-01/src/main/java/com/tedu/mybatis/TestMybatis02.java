@@ -89,10 +89,22 @@ public class TestMybatis02 {
 
     @Test
     public void testFindBySal() {
-        Map map=new HashMap();
-        map.put("minSal",3000);
-        map.put("maxSal",4500);
-        List<Emp> list = session.selectList("EmpMapper.findBySal",map);
+        Map<String, Object> map = new HashMap<>();
+        map.put("minSal", 3000);
+        map.put("maxSal", 4500);
+        List<Emp> list = session.selectList("EmpMapper.findBySal", map);
+        for (Emp emp :
+                list) {
+            System.out.println(emp);
+        }
+    }
+
+    @Test
+    public void testFindBySal2() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("minSal", 3000);
+        map.put("maxSal", 4500);
+        List<Emp> list = session.selectList("EmpMapper.findBySal", map);
         for (Emp emp :
                 list) {
             System.out.println(emp);
