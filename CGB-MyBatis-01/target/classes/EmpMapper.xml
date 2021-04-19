@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+  不同Mapper文件的namespace值应该保证唯一
+  在程序中通过[ namespace + id ]定位到要执行哪一条SQL语句
+ -->
+<mapper namespace="EmpMapper">
+    <!-- 通过select、insert、update、delete标签声明要执行的SQL -->
+    <!-- 练习1: 查询emp表中的所有员工信息
+      resultType指定查询的结果将会封装到什么类型中
+      即使最终返回的结果是集合(List<Emp>),resultType也只需要指定集合中的泛型即可!
+    -->
+    <select id="findAll" resultType="cn.tedu.pojo.Emp">
+        select *
+        from emp
+    </select>
+    <insert id="insert">
+        insert into emp value (null, '赵云', '保安', 6000)
+    </insert>
+    <update id="update">
+        update emp
+        set job='保镖',
+            salary=20000
+        where name = '赵云'
+    </update>
+
+    <delete id="delete">
+        delete
+        from emp
+        where name = '赵云'
+    </delete>
+
+    <insert id="insert2">
+        insert into emp value (null, #{name}, #{job}, #{salary})
+    </insert>
+    <update id="update2">
+        update emp
+        set job=#{job},
+            salary=#{salary}
+        where name = #{name}
+    </update>
+
+    <select id="findAll2" resultType="cn.tedu.pojo.Emp">
+        select #{colName}
+        from emp
+    </select>
+
+    <select id="findBySal" resultType="cn.tedu.pojo.Emp">
+        select * from emp
+        where 1=1
+        <if test="minSol !=null">
+            and salary &gt; #{minSal}
+        </if>
+        <if test="maxSol !=null">
+            <!--     &lt;是<的含义
+                     &gt;是>的含义      -->
+            and salary &lt; #{maxSal}
+        </if>
+    </select>
+</mapper>

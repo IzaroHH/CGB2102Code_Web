@@ -1,0 +1,98 @@
+DEBUG [main] 2021-04-19 11:05:50 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 11:05:50 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:05:50 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:05:50 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:05:50 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:05:50 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 11:05:50 - Created connection 718571091.
+DEBUG [main] 2021-04-19 11:05:50 - ==>  Preparing: update emp set job=?, salary=? where name = ? 
+DEBUG [main] 2021-04-19 11:05:51 - ==> Parameters: 教授(String), 8888.8(Double), 马云(String)
+DEBUG [main] 2021-04-19 11:05:51 - <==    Updates: 1
+DEBUG [main] 2021-04-19 11:06:40 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 11:06:40 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:06:40 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:06:40 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:06:40 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:06:40 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 11:06:41 - Created connection 1890187342.
+DEBUG [main] 2021-04-19 11:06:41 - ==>  Preparing: update emp set job=?, salary=? where name = ? 
+DEBUG [main] 2021-04-19 11:06:41 - ==> Parameters: CEO(String), 10000000(Integer), 马云(String)
+DEBUG [main] 2021-04-19 11:06:41 - <==    Updates: 1
+DEBUG [main] 2021-04-19 11:07:21 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 11:07:21 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:07:21 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:07:21 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:07:21 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:07:21 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 11:07:21 - Created connection 1890187342.
+DEBUG [main] 2021-04-19 11:07:21 - ==>  Preparing: update emp set job=?, salary=? where name = ? 
+DEBUG [main] 2021-04-19 11:07:21 - ==> Parameters: 教授(String), 8888.8(Double), 马云(String)
+DEBUG [main] 2021-04-19 11:07:21 - <==    Updates: 1
+DEBUG [main] 2021-04-19 11:20:40 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 11:20:40 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:20:40 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:20:40 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:20:40 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:20:40 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 11:20:41 - Created connection 1890187342.
+DEBUG [main] 2021-04-19 11:20:41 - ==>  Preparing: update emp set job=?, salary=? where name = ? 
+DEBUG [main] 2021-04-19 11:20:41 - ==> Parameters: 教授(String), 8888.8(Double), 马云(String)
+DEBUG [main] 2021-04-19 11:20:41 - <==    Updates: 1
+DEBUG [main] 2021-04-19 11:21:20 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 11:21:20 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:21:20 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:21:20 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:21:20 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 11:21:20 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 11:21:21 - Created connection 1890187342.
+DEBUG [main] 2021-04-19 11:21:21 - ==>  Preparing: update emp set job=?, salary=? where name = ? 
+DEBUG [main] 2021-04-19 11:21:21 - ==> Parameters: CEO(String), 10000000(Integer), 马云(String)
+DEBUG [main] 2021-04-19 11:21:21 - <==    Updates: 1
+DEBUG [main] 2021-04-19 02:22:56 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 02:22:56 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 02:22:56 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 02:22:56 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 02:22:56 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 02:22:56 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 02:22:56 - Created connection 1089504328.
+DEBUG [main] 2021-04-19 02:22:56 - ==>  Preparing: select ? from emp 
+DEBUG [main] 2021-04-19 02:22:56 - ==> Parameters: id,name,job(String)
+DEBUG [main] 2021-04-19 02:22:57 - <==      Total: 9
+DEBUG [main] 2021-04-19 02:56:46 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 02:56:46 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 02:56:46 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 02:56:46 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 02:56:46 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 02:56:46 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 02:56:46 - Created connection 477289012.
+DEBUG [main] 2021-04-19 02:56:46 - ==>  Preparing: select * from emp where 
+DEBUG [main] 2021-04-19 02:56:46 - ==> Parameters: 
+DEBUG [main] 2021-04-19 03:00:31 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 03:00:31 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:00:31 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:00:31 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:00:31 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:00:31 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 03:00:32 - Created connection 477289012.
+DEBUG [main] 2021-04-19 03:00:32 - ==>  Preparing: select * from emp where 
+DEBUG [main] 2021-04-19 03:00:32 - ==> Parameters: 
+DEBUG [main] 2021-04-19 03:01:01 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 03:01:01 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:01:01 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:01:01 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:01:01 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:01:01 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 03:01:01 - Created connection 477289012.
+DEBUG [main] 2021-04-19 03:01:01 - ==>  Preparing: select * from emp where 1=1 
+DEBUG [main] 2021-04-19 03:01:01 - ==> Parameters: 
+DEBUG [main] 2021-04-19 03:01:01 - <==      Total: 9
+DEBUG [main] 2021-04-19 03:08:03 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [main] 2021-04-19 03:08:03 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:08:03 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:08:03 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:08:03 - PooledDataSource forcefully closed/removed all connections.
+DEBUG [main] 2021-04-19 03:08:03 - Opening JDBC Connection
+DEBUG [main] 2021-04-19 03:08:03 - Created connection 477289012.
+DEBUG [main] 2021-04-19 03:08:03 - ==>  Preparing: select * from emp where 1=1 
+DEBUG [main] 2021-04-19 03:08:03 - ==> Parameters: 
+DEBUG [main] 2021-04-19 03:08:03 - <==      Total: 9

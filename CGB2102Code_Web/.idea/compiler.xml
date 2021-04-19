@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CGB-MyBatis-01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CGB-Maven" target="1.8" />
+      <module name="CGB-Maven-Java01" target="1.8" />
+      <module name="CGB-Maven-Web01" target="1.8" />
+      <module name="CGB-Maven-Web02" target="1.8" />
+      <module name="CGB-Maven-Web03" target="1.8" />
+      <module name="CGB-MyBatis-01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
